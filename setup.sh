@@ -2,7 +2,7 @@
 
 # Pulling the required Docker images
 docker compose pull
-docker pull hummingbot/hummingbot:latest
+docker pull powercex/hummingbot:latest
 
 # Creating .env file with the required environment variables
 echo "CONFIG_PASSWORD=a" > .env
